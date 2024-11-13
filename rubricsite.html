@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boarding Skills Report</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="rubric-container" class="rubric-container">
+        <header>
+            <img src="logo.png" alt="St. George's School Logo" class="logo">
+            <h1>Boarding Skills Report</h1>
+        </header>
+        <table>
+            <tr>
+                <th>Expectation</th>
+                <th style="background-color: #c84949;">R = Requires Improvement</th>
+                <th style="background-color: #f4c542;">P = Partially Meets Expectations</th>
+                <th style="background-color: #8bc34a;">C = Consistently Meets Expectations</th>
+            </tr>
+            <tr>
+                <td>Engages in moderate to vigorous-intensity physical activity regularly.</td>
+                <td class="selectable">Physical activity is usually limited to 1 or less times per week. Encouraged to find additional opportunities for exercise.</td>
+                <td class="selectable">Does moderate to vigorous-intensity physical activity approximately 2-3 times per week through PHE class, co-curriculars, Harker Hall programming, personal training, and/or informal activity.</td>
+                <td class="selectable">Consistently does moderate to vigorous-intensity physical activity 4 or more times per week through PHE class, co-curriculars, Harker Hall programming, personal training, and/or informal activity.</td>
+            </tr>
+            <tr>
+                <td>Demonstrates healthy and balanced habits around food and nutrition.</td>
+                <td class="selectable">Encouraged to eat more consistent meals with a balance of fruits, vegetables, protein, and carbohydrates.</td>
+                <td class="selectable">Eats 2-3 meals most days of the week. Meals are generally balanced with fruit, vegetables, protein, and carbohydrates. Hydrates as needed.</td>
+                <td class="selectable">Consistently eats at least 3 meals per day, with a balance of fruits, vegetables, protein, and carbohydrates. Hydrates regularly, and brings a water bottle to school/activities.</td>
+            </tr>
+            <tr>
+                <td>Encouraged to limit high sugar/high fat/processed foods each week. Diet consists largely of take-out foods.</td>
+                <td class="selectable">Consumes some high sugar/high fat/processed food. Diet consists of some take-out food (2-3 times per week).</td>
+                <td class="selectable">Has minimal consumption of high sugar/high fat/processed foods each week. Eats limited take-out food (1 or less times per week).</td>
+            </tr>
+            <tr>
+                <td>Demonstrates appropriate personal hygiene and grooming practices.</td>
+                <td class="selectable">Needs reminders or encouragement to shower, manage body odour, care for hair and nails, wash face, and shave (as appropriate). Needs reminders to practice good oral hygiene.</td>
+                <td class="selectable">Showers most days, and sometimes remembers to manage body odour, care for hair and nails, washes face, and shaves (as appropriate). Practices oral hygiene at least once a day.</td>
+                <td class="selectable">Showers regularly and after sports practices or physical activity. Manages body odour, cares for hair and nails, washes face, and shaves (as appropriate). Practices oral hygiene at least twice a day.</td>
+            </tr>
+            <tr>
+                <td>Needs reminders to change out of school uniform or wear appropriate clothing for evening study, activity and sleep.</td>
+                <td class="selectable">Usually wears clean clothes and changes out of uniform after school. Generally wears appropriate clothing for evening study, activity and sleep.</td>
+                <td class="selectable">Consistently wears clean clothes, promptly changes out of uniform after school, and wears appropriate clothing for evening study, activity and sleep.</td>
+            </tr>
+        </table>
+        <button id="to-pdf">Save to PDF</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
